@@ -1,5 +1,4 @@
 
-main.py
 import time
 from turtle import Screen
 from boundary import Boundary
