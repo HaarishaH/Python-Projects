@@ -1,5 +1,4 @@
 
-scoreboard.py
 from turtle import Turtle
 
 updates = False
