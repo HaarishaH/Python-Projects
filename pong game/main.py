@@ -45,26 +45,31 @@ screen.onkey(bat_obj.bat2_down,'s')
 
 
 while True:
-    if score_obj.score1 < 10:
-        if score_obj.score2 < 10:
-            screen.update()
-            ball_obj.move()
-            if ball_obj.ball.ycor() > 320 or ball_obj.ball.ycor() < -320:
-                ball_obj.bounce_y()
-            if abs(ball_obj.ball.xcor() - bat_obj.bat1.xcor()) < 20 and abs(ball_obj.ball.ycor() - bat_obj.bat1.ycor()) < 50:
-                ball_obj.bounce_x()
-                score_obj.update_score1()
-                score_obj.add_score1()
-            if abs(ball_obj.ball.xcor() - bat_obj.bat2.xcor()) < 20 and abs(ball_obj.ball.ycor() - bat_obj.bat2.ycor()) < 50:
-                ball_obj.bounce_x()
-                score_obj.update_score2()
-                score_obj.add_score2()
-            if ball_obj.ball.xcor() > 720 or ball_obj.ball.xcor() < -720:
-                ball_obj.reset_position()
-        else:
+    screen.update()
+    ball_obj.move()
+    if ball_obj.ball.ycor() > 320 or ball_obj.ball.ycor() < -320:
+        ball_obj.bounce_y()
+    if abs(ball_obj.ball.xcor() - bat_obj.bat1.xcor()) < 20 and abs(ball_obj.ball.ycor() - bat_obj.bat1.ycor()) < 50:
+        ball_obj.bounce_x()
+    if abs(ball_obj.ball.xcor() - bat_obj.bat2.xcor()) < 20 and abs(ball_obj.ball.ycor() - bat_obj.bat2.ycor()) < 50:
+        ball_obj.bounce_x()
+
+    if ball_obj.ball.xcor() > 720:
+        ball_obj.reset_position()
+        score_obj.update_score2()
+        score_obj.add_score2()
+        if score_obj.score2 >= 2:
+            ball_obj.bal_disappear()
             over_obj.show_over()
             over_obj.dispplayer_2wins()
-    else:
-        over_obj.show_over()
-        over_obj.dispplayer_1wins()
-
+            break
+    if ball_obj.ball.xcor() < -720:
+        ball_obj.reset_position()
+        score_obj.update_score1()
+        score_obj.add_score1()
+        if score_obj.score1 >= 2:
+            ball_obj.bal_disappear()
+            over_obj.show_over()
+            over_obj.dispplayer_1wins()
+            break
+screen.exitonclick()
