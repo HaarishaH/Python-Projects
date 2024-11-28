@@ -1,6 +1,6 @@
 from turtle import Turtle
-from random import randint,choice
-from bat import Bat
+
+
 class Ball:
     def __init__(self):
         self.ball = Turtle('circle')
@@ -27,4 +27,15 @@ class Ball:
 
     def bal_disappear(self):
         self.ball.hideturtle()
+
+    # def startservice(self, s1,s2):
+    #  choice = self.ball.screen.textinput("1st Service", "Who wants to do the 1st service? (1 or 2)")
+    #  if choice == "1":
+    #      s1()
+    #  elif choice == "2":
+    #      s2()
+    #  else:
+    #      print("Invalid input. Defaulting to Player 1's service.")
+    #      s1()
+
 

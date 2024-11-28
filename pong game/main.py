@@ -3,7 +3,7 @@ from bat import Bat
 from ball import Ball
 from score import Score
 from gameover import Over
-from random import randint
+import time
 screen = Screen()
 screen.setup(width= 1500 , height= 700)
 screen.bgcolor("black")
@@ -38,11 +38,22 @@ ball_obj = Ball()
 score_obj = Score()
 over_obj = Over()
 screen.listen()
-screen.onkey(bat_obj.bat1_up,'Up')
-screen.onkey(bat_obj.bat1_down,'Down')
-screen.onkey(bat_obj.bat2_up,'w')
-screen.onkey(bat_obj.bat2_down,'s')
+screen.onkeypress(bat_obj.bat1_up,'Up')
+screen.onkeypress(bat_obj.bat1_down,'Down')
+screen.onkeypress(bat_obj.bat2_up,'w')
+screen.onkeypress(bat_obj.bat2_down,'s')
 
+class Player1:
+    def serviceplayer1(self):
+        ball_obj.ball.hideturtle()
+        ball_obj.ball.goto(bat_obj.bat1.position())
+        ball_obj.ball.showturtle()
+
+class Player2:
+    def serviceplayer2(self):
+        ball_obj.ball.hideturtle()
+        ball_obj.ball.goto(bat_obj.bat2.position())
+        ball_obj.ball.showturtle()
 
 while True:
     screen.update()
@@ -58,18 +69,24 @@ while True:
         ball_obj.reset_position()
         score_obj.update_score2()
         score_obj.add_score2()
-        if score_obj.score2 >= 2:
+        if score_obj.score2 >= 10:
             ball_obj.bal_disappear()
             over_obj.show_over()
             over_obj.dispplayer_2wins()
+            court.color('red')
+            screen.update()
+            time.sleep(2)
             break
     if ball_obj.ball.xcor() < -720:
         ball_obj.reset_position()
         score_obj.update_score1()
         score_obj.add_score1()
-        if score_obj.score1 >= 2:
+        if score_obj.score1 >= 10:
             ball_obj.bal_disappear()
             over_obj.show_over()
             over_obj.dispplayer_1wins()
+            court.color('red')
+            screen.update()
+            time.sleep(2)
             break
 screen.exitonclick()

@@ -13,12 +13,12 @@ class Over:
         self.over.goto(-450,-50)
         self.over.write(f" GAME OVER", align="left", font=("Times New Roman ", 100, "bold"))
     def dispplayer_1wins(self):
-        self.player_1wins.color('white')
+        self.player_1wins.color('green')
         self.player_1wins.penup()
         self.player_1wins.goto(-320, -150)
         self.player_1wins.write(f" Player 1 Wins", align="left", font=("Times New Roman ", 70, "bold"))
     def dispplayer_2wins(self):
-        self.player_2wins.color('white')
+        self.player_2wins.color('green')
         self.player_2wins.penup()
         self.player_2wins.goto(-320, -150)
         self.player_2wins.write(f" Player 2 Wins", align="left", font=("Times New Roman ", 70, "bold"))
