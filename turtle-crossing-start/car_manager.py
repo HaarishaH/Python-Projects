@@ -25,7 +25,7 @@ class Car:
     def carmove(self):
         for car in self.c:
             car.fd(self.car_speed)
-            if car.xcor() < -280:
+            if car.xcor() < -300:
                 car.goto(340,choice([x for x in range(-250,250,30)]))
 
     def carspeed(self):

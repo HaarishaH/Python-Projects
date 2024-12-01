@@ -15,7 +15,8 @@ car_obj = Car()
 score_obj = Score()
 over_obj = Game_over()
 screen.listen()
-screen.onkey(player_obj.turtmove,'Up')
+screen.onkeypress(player_obj.turtmove,'Up')
+
 game_is_on = True
 while game_is_on:
     time.sleep(0.1)
@@ -37,5 +38,8 @@ while game_is_on:
         car_obj.carspeed()
         score_obj.update_score()
         score_obj.add_score()
+        if score_obj.scorr >= 1:
+            game_is_on = False
+            over_obj.win()
 
 screen.exitonclick()

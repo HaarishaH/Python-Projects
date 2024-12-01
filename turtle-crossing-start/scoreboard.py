@@ -21,3 +21,6 @@ class Score:
     def changecolor(self):
         self.s.color('green')
         self.s.goto(-30, -10)
+
+
+
