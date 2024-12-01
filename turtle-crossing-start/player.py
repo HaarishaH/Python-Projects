@@ -18,6 +18,8 @@ class Player:
         self.turt.setheading(90)
     def turtmove(self):
         self.turt.fd(MOVE_DISTANCE)
-
+    def dead(self):
+        self.turt.shapesize(3)
+        self.turt.color('red')
 
 
