@@ -29,13 +29,17 @@ while game_start :
     object_screen.update()
     time.sleep(0.1)
     snake_obj.move()
-    food_obj.spawn_food()
-    food_obj.catch_food(snake_obj.head.xcor() ,snake_obj.head.ycor())
-    snake_obj.update_snake()
+
+    if snake_obj.head.distance(food_obj.object_food) <= 20:
+        food_obj.spawn_food()
+        snake_obj.update_snake()
+        food_obj.object_score.add_score()
+
     if (snake_obj.head.xcor() > 280) | (snake_obj.head.xcor() < -280) | (snake_obj.head.ycor() > 280) | (snake_obj.head.ycor() < -280) :
-        game_start = False
+        food_obj.trigger()
+        snake_obj.re_create_snake()
     if snake_obj.collision() :
-        print("game over")
-        break
+        food_obj.trigger()
+        snake_obj.re_create_snake()
 
 object_screen.exitonclick()

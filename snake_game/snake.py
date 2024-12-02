@@ -22,17 +22,15 @@ class Snake():
             self.snakes.append(s)
 
     def update_snake(self):
-        if scoreboard.updates :
-            s = Turtle("square")
-            s.color("white")
-            s.shapesize(0.5)
-            s.penup()
-            index_of_last_snake =  len(snake_position)-1
-            u_x = snake_position[index_of_last_snake][0] - 10
-            print(snake_position)
-            snake_position.append((u_x , 0))
-            self.snakes.append(s)
-            scoreboard.updates = False
+        s = Turtle("square")
+        s.color("white")
+        s.shapesize(0.5)
+        s.penup()
+        index_of_last_snake =  len(snake_position)-1
+        u_x = snake_position[index_of_last_snake][0] - 10
+        print(snake_position)
+        snake_position.append((u_x , 0))
+        self.snakes.append(s)
 
     def collision(self):
         for i in range(len(self.snakes)-1 , 0 , -1):
@@ -63,3 +61,11 @@ class Snake():
     def down(self):
         if self.head.heading() != 90:
             self.head.setheading(270)
+    def re_create_snake(self):
+        for i in self.snakes:
+            i.hideturtle()
+        self.snakes.clear()
+        global snake_position
+        snake_position = [(0, 0), (-10, 0), (-20, 0)]
+        self.spawn()
+        self.head = self.snakes[0]

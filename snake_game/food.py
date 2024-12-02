@@ -14,15 +14,8 @@ class Food:
         self.f_cor = [(0 , 0)]
 
     def spawn_food(self):
-        while self.food == 0 :
-            food_cor = (randint(-280, 280), randint(-280, 280))
-            self.object_food.goto(food_cor)
-            self.food = 1
-            self.f_cor = [food_cor]
+        food_cor = (randint(-280, 280), randint(-280, 280))
+        self.object_food.goto(food_cor)
 
-
-    def catch_food(self , x_cor , y_cor):
-        if self.object_food.distance(x_cor , y_cor) <= 20 :
-            self.spawn_food()
-            self.object_score.add_score()
-            self.food = 0
+    def trigger(self):
+        self.object_score.highscore()
