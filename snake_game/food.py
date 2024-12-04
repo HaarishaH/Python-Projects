@@ -17,5 +17,6 @@ class Food:
         food_cor = (randint(-280, 280), randint(-280, 280))
         self.object_food.goto(food_cor)
 
+
     def trigger(self):
         self.object_score.highscore()
