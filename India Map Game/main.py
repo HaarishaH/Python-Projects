@@ -13,7 +13,6 @@ d = pd.read_csv('states_names.csv')
 all_states = d['states'].tolist()
 
 guessed_state =[]
-missed_states = []
 
 while len(guessed_state) < 30:
     prompt = screen.textinput(f"{len(guessed_state)}/30 States correct ",'Whats another state name').title()
@@ -31,11 +30,9 @@ while len(guessed_state) < 30:
         correctstate.goto(answer.x.item(),answer.y.item())
         correctstate.write(prompt)
 
-
-for i in all_states:
-    if i not in guessed_state:
-        missed_states.append(i)
+missed_states = [state for state in all_states if state not in guessed_state]
 missed_states.append(len(missed_states))
+
 
 df = pd.DataFrame(missed_states, columns = ['states'])
 df.to_csv('missed_states', index = False)
