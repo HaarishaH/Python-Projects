@@ -2,18 +2,39 @@ from tkinter import *
 from tkinter import messagebox
 from random import randint ,choice,shuffle
 import pyperclip
+import json
 
 
 def add():
     websitee = website_entry.get()
     usernamee = username_entry.get()
     passwordd = password_entry.get()
+    pass_dict = {
+        websitee: {
+            'email': usernamee,
+            'password': passwordd
+
+        }
+    }
+
     if (len(websitee) > 0) and (len(usernamee) > 0) and (len(passwordd) > 0):
-        save = messagebox.askokcancel(title = 'Save', message = f'Details entered\n Website:{websitee}\nEmail:{usernamee}\n Password:{passwordd}')
-        with open('password_bank.txt', mode='a') as a:
-            entries = a.write(f'{websitee} | {usernamee} | {passwordd}\n')
-            website_entry.delete(0, END)
-            password_entry.delete(0, END)
+        try:
+            with open('password_bank.json', mode='r') as pass_file:
+                data = json.load(pass_file)
+        except:
+            with open('password_bank.json', mode='w') as pass_file:
+                json.dump(pass_dict, pass_file, indent=4)
+
+        else:
+            with open('password_bank.json', mode='r') as pass_file:
+                data.update(pass_dict)
+                with open('password_bank.json', mode='w') as pass_file:
+                    json.dump(data, pass_file, indent=4)
+
+        finally:
+                website_entry.delete(0, END)
+                password_entry.delete(0, END)
+
 
     elif (len(websitee) == 0) or (len(usernamee) == 0) or (len(passwordd) == 0):
         messagebox.showerror(title='ERROR', message='Please fill all the fields')
