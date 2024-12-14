@@ -54,12 +54,29 @@ def password_generation():
     password_entry.insert(0, passwords)
     pyperclip.copy(passwords)
 
+def find_password():
+    websitee = website_entry.get()
+    try:
+        with open('password_bank.json', 'r') as pass_file:
+            data = json.load(pass_file)
+    except:
+        messagebox.showerror(title='Error', message='Details not found')
+
+    else:
+        if websitee in data:
+            e = data[websitee]['email']
+            p = data[websitee]['password']
+            messagebox.showinfo(title=websitee, message=f'Email: {e}\nPassword: {p}')
+        else:
+            messagebox.showerror(title='Error', message='Details not found')
+
+
 
 FONT_NAME = 'Courier'
 
 window = Tk()
 window.title('Password Manager')
-window.config(padx = 50, pady = 50 , bg = 'white')
+window.config(padx = 30, pady = 30 , bg = 'white')
 
 canvas = Canvas(width = 200, height = 200, bg = 'white', highlightthickness = 0)
 img = PhotoImage(file = 'passimg.gif')
@@ -75,8 +92,8 @@ username.grid(column =0,row = 2,sticky='e')
 passwordlabe = Label(text ='Password:', bg ='white')
 passwordlabe.grid(column =0, row = 3, sticky='e')
 
-website_entry = Entry(width = 42)
-website_entry.grid(column=1, row=1, columnspan = 2)
+website_entry = Entry(width = 23)
+website_entry.grid(column=1, row=1)
 website_entry.focus()
 print(website_entry.get())
 
@@ -94,5 +111,8 @@ generate_button.grid(column = 2, row = 3, sticky='w')
 
 add_button = Button(text = 'Add', width = 36, command=add)
 add_button.grid(column = 1, row = 4, columnspan = 2)
+
+search_button = Button(text = 'Search', width = 12, command= find_password)
+search_button.grid(column = 2, row = 1)
 
 window.mainloop()
