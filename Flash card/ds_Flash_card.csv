@@ -1,0 +1,201 @@
+Concept,Description
+Explainable AI (XAI),Making machine learning models interpretable.
+Bias-Variance Tradeoff,The tradeoff between a model's bias and variance.
+Random Forests,An ensemble method using multiple decision trees.
+Precision,The ratio of true positives to predicted positives.
+"ETL (Extract, Transform, Load)","Extracting, transforming, and loading data."
+APIs in Data Science,Using application programming interfaces in data workflows.
+Docker,A platform for containerizing applications.
+Support Vector Machines,A supervised learning algorithm for classification tasks.
+Z-Test,A test comparing sample and population means.
+K-Means Clustering,An algorithm for partitioning data into clusters.
+P-Value,The probability of observing results at least as extreme as the data.
+Hypothesis Testing,Testing an assumption using statistical methods.
+Data Visualization,Creating graphical representations of data.
+Z-Test,A test comparing sample and population means.
+APIs in Data Science,Using application programming interfaces in data workflows.
+EDA (Exploratory Data Analysis),Analyzing data to summarize its main characteristics.
+SQL,A language for managing and querying relational databases.
+Decision Trees,A tree-based algorithm for decision-making tasks.
+Shapley Values,A method for explaining predictions by machine learning models.
+Fairness in AI,Ensuring AI systems treat all groups fairly.
+Linear Regression,A regression algorithm for predicting continuous values.
+Data Warehouse,A framework for managing data quality and compliance.
+Data Lake,A centralized repository for storing structured data.
+Unsupervised Learning,A type of machine learning where the model identifies patterns in unlabeled data.
+Pandas,A library for data manipulation in Python.
+Precision,The ratio of true positives to predicted positives.
+A/B Testing,Comparing two groups to determine significant differences.
+Random Forests,An ensemble method using multiple decision trees.
+P-Value,The probability of observing results at least as extreme as the data.
+Big Data,Large-scale data sets requiring specialized tools.
+Dimensionality Reduction,Reducing the number of features while preserving information.
+Neural Networks,A computational model inspired by the human brain.
+Data Pipeline,A system for managing data processing workflows.
+Dimensionality Reduction,Reducing the number of features while preserving information.
+Regression,Predicting a continuous numerical value.
+Unsupervised Learning,A type of machine learning where the model identifies patterns in unlabeled data.
+A/B Testing,Comparing two groups to determine significant differences.
+Feature Engineering,Creating meaningful features from raw data.
+CNN (Convolutional Neural Networks),A type of neural network for image data.
+"ETL (Extract, Transform, Load)","Extracting, transforming, and loading data."
+ROC Curve,A graph showing the performance of a classification model.
+Underfitting,A model is too simple and fails to capture the data's complexity.
+Docker,A platform for containerizing applications.
+Logistic Regression,A regression algorithm for binary classification.
+Seaborn,A Python library for statistical data visualization.
+Big Data,Large-scale data sets requiring specialized tools.
+ROC Curve,A graph showing the performance of a classification model.
+TensorFlow,A library for deep learning.
+NumPy,A library for numerical computing in Python.
+Data Ethics,Ethical considerations in data collection and usage.
+K-Means Clustering,An algorithm for partitioning data into clusters.
+Matplotlib,A library for creating visualizations in Python.
+RNN (Recurrent Neural Networks),A type of neural network for sequential data.
+Overfitting,"A model fits the training data too well, reducing generalization."
+Scikit-learn,A library for machine learning in Python.
+Matplotlib,A library for creating visualizations in Python.
+LSTM,A type of neural network for sequence data.
+Dimensionality Reduction,Reducing the number of features while preserving information.
+Gradient Descent,An optimization algorithm to minimize a cost function.
+Pandas,A library for data manipulation in Python.
+Feature Engineering,Creating meaningful features from raw data.
+Random Search,A randomized approach to find optimal parameters.
+Gradient Descent,An optimization algorithm to minimize a cost function.
+Hypothesis Testing,Testing an assumption using statistical methods.
+Data Warehouse,A framework for managing data quality and compliance.
+P-Value,The probability of observing results at least as extreme as the data.
+Natural Language Processing,Processing and analyzing human language data.
+TensorFlow,A library for deep learning.
+ROC Curve,A graph showing the performance of a classification model.
+Spark,A framework for big data analytics.
+CNN (Convolutional Neural Networks),A type of neural network for image data.
+ARIMA,A statistical model for time series forecasting.
+Hypothesis Testing,Testing an assumption using statistical methods.
+PyTorch,A deep learning framework.
+Time Series Analysis,Analyzing data collected over time.
+Linear Regression,A regression algorithm for predicting continuous values.
+Hadoop,An open-source framework for distributed storage and processing.
+Regression,Predicting a continuous numerical value.
+Data Visualization,Creating graphical representations of data.
+Spark,A framework for big data analytics.
+EDA (Exploratory Data Analysis),Analyzing data to summarize its main characteristics.
+Linear Regression,A regression algorithm for predicting continuous values.
+Reinforcement Learning,Learning through rewards and penalties.
+Z-Test,A test comparing sample and population means.
+Neural Networks,A computational model inspired by the human brain.
+Supervised Learning,A type of machine learning where the model learns from labeled data.
+EDA (Exploratory Data Analysis),Analyzing data to summarize its main characteristics.
+Regression,Predicting a continuous numerical value.
+Shapley Values,A method for explaining predictions by machine learning models.
+Unsupervised Learning,A type of machine learning where the model identifies patterns in unlabeled data.
+Precision,The ratio of true positives to predicted positives.
+Kubernetes,An orchestration tool for managing containers.
+LSTM,A type of neural network for sequence data.
+Boosting,An iterative boosting algorithm improving weak models.
+Model Deployment,Deploying machine learning models for real-world use.
+Decision Trees,A tree-based algorithm for decision-making tasks.
+Data Pipeline,A system for managing data processing workflows.
+Data Wrangling,Transforming raw data into usable formats.
+Logistic Regression,A regression algorithm for binary classification.
+Data Privacy,Protecting personal information in data analysis.
+SQL,A language for managing and querying relational databases.
+Hyperparameter Tuning,Optimizing model parameters to improve performance.
+F1 Score,The harmonic mean of precision and recall.
+Natural Language Processing,Processing and analyzing human language data.
+A/B Testing,Comparing two groups to determine significant differences.
+Support Vector Machines,A supervised learning algorithm for classification tasks.
+Logistic Regression,A regression algorithm for binary classification.
+Data Lake,A centralized repository for storing structured data.
+LIME,A technique for interpreting machine learning models.
+NumPy,A library for numerical computing in Python.
+Feature Engineering,Creating meaningful features from raw data.
+T-Test,A statistical test comparing means of two groups.
+Support Vector Machines,A supervised learning algorithm for classification tasks.
+Explainable AI (XAI),Making machine learning models interpretable.
+Hyperparameter Tuning,Optimizing model parameters to improve performance.
+Overfitting,"A model fits the training data too well, reducing generalization."
+T-Test,A statistical test comparing means of two groups.
+F1 Score,The harmonic mean of precision and recall.
+ARIMA,A statistical model for time series forecasting.
+ARIMA,A statistical model for time series forecasting.
+Hadoop,An open-source framework for distributed storage and processing.
+Scikit-learn,A library for machine learning in Python.
+Natural Language Processing,Processing and analyzing human language data.
+Gradient Descent,An optimization algorithm to minimize a cost function.
+Classification,Predicting a category or class label.
+Model Evaluation,Assessing the performance of machine learning models.
+Grid Search,A method for hyperparameter optimization.
+Matplotlib,A library for creating visualizations in Python.
+Confusion Matrix,A table showing the performance of a classification model.
+Deep Learning,A subset of machine learning focusing on neural networks with many layers.
+Data Cleaning,"Fixing or removing incorrect, incomplete, or irrelevant data."
+Model Deployment,Deploying machine learning models for real-world use.
+T-Test,A statistical test comparing means of two groups.
+Kubernetes,An orchestration tool for managing containers.
+Confusion Matrix,A table showing the performance of a classification model.
+Random Search,A randomized approach to find optimal parameters.
+Data Privacy,Protecting personal information in data analysis.
+TensorFlow,A library for deep learning.
+Grid Search,A method for hyperparameter optimization.
+Data Governance,"Ensuring data quality, security, and compliance."
+Grid Search,A method for hyperparameter optimization.
+F1 Score,The harmonic mean of precision and recall.
+Hyperparameter Tuning,Optimizing model parameters to improve performance.
+Bagging,An ensemble technique combining multiple models.
+Boosting,An iterative boosting algorithm improving weak models.
+Random Search,A randomized approach to find optimal parameters.
+Data Wrangling,Transforming raw data into usable formats.
+Data Cleaning,"Fixing or removing incorrect, incomplete, or irrelevant data."
+RNN (Recurrent Neural Networks),A type of neural network for sequential data.
+Bias-Variance Tradeoff,The tradeoff between a model's bias and variance.
+RNN (Recurrent Neural Networks),A type of neural network for sequential data.
+Supervised Learning,A type of machine learning where the model learns from labeled data.
+Overfitting,"A model fits the training data too well, reducing generalization."
+Recall,The ratio of true positives to actual positives.
+PCA (Principal Component Analysis),A technique to reduce data dimensions while preserving variance.
+Clustering,Grouping similar data points into clusters.
+Clustering,Grouping similar data points into clusters.
+Time Series Analysis,Analyzing data collected over time.
+Data Visualization,Creating graphical representations of data.
+Cross-Validation,A technique to evaluate models using different subsets of data.
+LIME,A technique for interpreting machine learning models.
+Fairness in AI,Ensuring AI systems treat all groups fairly.
+Underfitting,A model is too simple and fails to capture the data's complexity.
+Random Forests,An ensemble method using multiple decision trees.
+Recall,The ratio of true positives to actual positives.
+Boosting,An iterative boosting algorithm improving weak models.
+Decision Trees,A tree-based algorithm for decision-making tasks.
+Data Cleaning,"Fixing or removing incorrect, incomplete, or irrelevant data."
+Reinforcement Learning,Learning through rewards and penalties.
+PCA (Principal Component Analysis),A technique to reduce data dimensions while preserving variance.
+Bias in AI,Unintended biases in machine learning models.
+Classification,Predicting a category or class label.
+Deep Learning,A subset of machine learning focusing on neural networks with many layers.
+Recall,The ratio of true positives to actual positives.
+Clustering,Grouping similar data points into clusters.
+Bias in AI,Unintended biases in machine learning models.
+Scikit-learn,A library for machine learning in Python.
+Reinforcement Learning,Learning through rewards and penalties.
+PCA (Principal Component Analysis),A technique to reduce data dimensions while preserving variance.
+Bagging,An ensemble technique combining multiple models.
+LSTM,A type of neural network for sequence data.
+PyTorch,A deep learning framework.
+Data Ethics,Ethical considerations in data collection and usage.
+CNN (Convolutional Neural Networks),A type of neural network for image data.
+Cross-Validation,A technique to evaluate models using different subsets of data.
+Confusion Matrix,A table showing the performance of a classification model.
+Data Governance,"Ensuring data quality, security, and compliance."
+Underfitting,A model is too simple and fails to capture the data's complexity.
+K-Means Clustering,An algorithm for partitioning data into clusters.
+Deep Learning,A subset of machine learning focusing on neural networks with many layers.
+Cross-Validation,A technique to evaluate models using different subsets of data.
+PyTorch,A deep learning framework.
+Seaborn,A Python library for statistical data visualization.
+Neural Networks,A computational model inspired by the human brain.
+Supervised Learning,A type of machine learning where the model learns from labeled data.
+Time Series Analysis,Analyzing data collected over time.
+Bagging,An ensemble technique combining multiple models.
+Model Evaluation,Assessing the performance of machine learning models.
+Bias-Variance Tradeoff,The tradeoff between a model's bias and variance.
+Classification,Predicting a category or class label.
