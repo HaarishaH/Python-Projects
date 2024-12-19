@@ -1,0 +1,171 @@
+,Unnamed: 0,Concept,Description
+0,0,Explainable AI (XAI),Making machine learning models interpretable.
+1,1,Bias-Variance Tradeoff,The tradeoff between a model's bias and variance.
+2,2,Random Forests,An ensemble method using multiple decision trees.
+3,3,Precision,The ratio of true positives to predicted positives.
+4,4,"ETL (Extract, Transform, Load)","Extracting, transforming, and loading data."
+5,5,APIs in Data Science,Using application programming interfaces in data workflows.
+6,6,Support Vector Machines,A supervised learning algorithm for classification tasks.
+7,7,Z-Test,A test comparing sample and population means.
+8,8,K-Means Clustering,An algorithm for partitioning data into clusters.
+9,9,P-Value,The probability of observing results at least as extreme as the data.
+10,11,Z-Test,A test comparing sample and population means.
+11,12,APIs in Data Science,Using application programming interfaces in data workflows.
+12,13,EDA (Exploratory Data Analysis),Analyzing data to summarize its main characteristics.
+13,14,SQL,A language for managing and querying relational databases.
+14,15,Decision Trees,A tree-based algorithm for decision-making tasks.
+15,16,Shapley Values,A method for explaining predictions by machine learning models.
+16,17,Fairness in AI,Ensuring AI systems treat all groups fairly.
+17,18,Data Warehouse,A framework for managing data quality and compliance.
+18,19,Unsupervised Learning,A type of machine learning where the model identifies patterns in unlabeled data.
+19,21,Precision,The ratio of true positives to predicted positives.
+20,22,Random Forests,An ensemble method using multiple decision trees.
+21,24,Big Data,Large-scale data sets requiring specialized tools.
+22,25,Dimensionality Reduction,Reducing the number of features while preserving information.
+23,26,Neural Networks,A computational model inspired by the human brain.
+24,27,Data Pipeline,A system for managing data processing workflows.
+25,29,Unsupervised Learning,A type of machine learning where the model identifies patterns in unlabeled data.
+26,30,A/B Testing,Comparing two groups to determine significant differences.
+27,31,CNN (Convolutional Neural Networks),A type of neural network for image data.
+28,32,"ETL (Extract, Transform, Load)","Extracting, transforming, and loading data."
+29,33,ROC Curve,A graph showing the performance of a classification model.
+30,34,Docker,A platform for containerizing applications.
+31,35,Logistic Regression,A regression algorithm for binary classification.
+32,37,Big Data,Large-scale data sets requiring specialized tools.
+33,38,ROC Curve,A graph showing the performance of a classification model.
+34,39,TensorFlow,A library for deep learning.
+35,40,NumPy,A library for numerical computing in Python.
+36,41,Data Ethics,Ethical considerations in data collection and usage.
+37,42,K-Means Clustering,An algorithm for partitioning data into clusters.
+38,43,Matplotlib,A library for creating visualizations in Python.
+39,44,RNN (Recurrent Neural Networks),A type of neural network for sequential data.
+40,45,Overfitting,"A model fits the training data too well, reducing generalization."
+41,46,Scikit-learn,A library for machine learning in Python.
+42,47,Matplotlib,A library for creating visualizations in Python.
+43,48,LSTM,A type of neural network for sequence data.
+44,49,Dimensionality Reduction,Reducing the number of features while preserving information.
+45,50,Gradient Descent,An optimization algorithm to minimize a cost function.
+46,51,Pandas,A library for data manipulation in Python.
+47,52,Feature Engineering,Creating meaningful features from raw data.
+48,54,Hypothesis Testing,Testing an assumption using statistical methods.
+49,55,Data Warehouse,A framework for managing data quality and compliance.
+50,56,P-Value,The probability of observing results at least as extreme as the data.
+51,57,Natural Language Processing,Processing and analyzing human language data.
+52,58,TensorFlow,A library for deep learning.
+53,59,ROC Curve,A graph showing the performance of a classification model.
+54,60,CNN (Convolutional Neural Networks),A type of neural network for image data.
+55,61,ARIMA,A statistical model for time series forecasting.
+56,62,Hypothesis Testing,Testing an assumption using statistical methods.
+57,63,PyTorch,A deep learning framework.
+58,64,Time Series Analysis,Analyzing data collected over time.
+59,65,Linear Regression,A regression algorithm for predicting continuous values.
+60,66,Hadoop,An open-source framework for distributed storage and processing.
+61,67,Regression,Predicting a continuous numerical value.
+62,68,Data Visualization,Creating graphical representations of data.
+63,69,Spark,A framework for big data analytics.
+64,70,EDA (Exploratory Data Analysis),Analyzing data to summarize its main characteristics.
+65,71,Linear Regression,A regression algorithm for predicting continuous values.
+66,72,Z-Test,A test comparing sample and population means.
+67,73,Neural Networks,A computational model inspired by the human brain.
+68,74,Supervised Learning,A type of machine learning where the model learns from labeled data.
+69,75,EDA (Exploratory Data Analysis),Analyzing data to summarize its main characteristics.
+70,76,Regression,Predicting a continuous numerical value.
+71,77,Shapley Values,A method for explaining predictions by machine learning models.
+72,78,Unsupervised Learning,A type of machine learning where the model identifies patterns in unlabeled data.
+73,80,Kubernetes,An orchestration tool for managing containers.
+74,82,Boosting,An iterative boosting algorithm improving weak models.
+75,83,Model Deployment,Deploying machine learning models for real-world use.
+76,84,Decision Trees,A tree-based algorithm for decision-making tasks.
+77,86,Data Wrangling,Transforming raw data into usable formats.
+78,87,Logistic Regression,A regression algorithm for binary classification.
+79,88,Data Privacy,Protecting personal information in data analysis.
+80,89,SQL,A language for managing and querying relational databases.
+81,90,Hyperparameter Tuning,Optimizing model parameters to improve performance.
+82,91,Natural Language Processing,Processing and analyzing human language data.
+83,92,A/B Testing,Comparing two groups to determine significant differences.
+84,93,Support Vector Machines,A supervised learning algorithm for classification tasks.
+85,95,Data Lake,A centralized repository for storing structured data.
+86,96,LIME,A technique for interpreting machine learning models.
+87,97,NumPy,A library for numerical computing in Python.
+88,98,Feature Engineering,Creating meaningful features from raw data.
+89,99,T-Test,A statistical test comparing means of two groups.
+90,101,Explainable AI (XAI),Making machine learning models interpretable.
+91,102,Hyperparameter Tuning,Optimizing model parameters to improve performance.
+92,103,Overfitting,"A model fits the training data too well, reducing generalization."
+93,104,T-Test,A statistical test comparing means of two groups.
+94,105,F1 Score,The harmonic mean of precision and recall.
+95,106,ARIMA,A statistical model for time series forecasting.
+96,107,ARIMA,A statistical model for time series forecasting.
+97,108,Hadoop,An open-source framework for distributed storage and processing.
+98,109,Scikit-learn,A library for machine learning in Python.
+99,110,Natural Language Processing,Processing and analyzing human language data.
+100,112,Model Evaluation,Assessing the performance of machine learning models.
+101,113,Grid Search,A method for hyperparameter optimization.
+102,114,Matplotlib,A library for creating visualizations in Python.
+103,115,Model Deployment,Deploying machine learning models for real-world use.
+104,116,T-Test,A statistical test comparing means of two groups.
+105,117,Kubernetes,An orchestration tool for managing containers.
+106,118,Confusion Matrix,A table showing the performance of a classification model.
+107,119,Random Search,A randomized approach to find optimal parameters.
+108,120,Data Privacy,Protecting personal information in data analysis.
+109,121,TensorFlow,A library for deep learning.
+110,122,Grid Search,A method for hyperparameter optimization.
+111,123,Data Governance,"Ensuring data quality, security, and compliance."
+112,124,Grid Search,A method for hyperparameter optimization.
+113,125,F1 Score,The harmonic mean of precision and recall.
+114,126,Hyperparameter Tuning,Optimizing model parameters to improve performance.
+115,127,Bagging,An ensemble technique combining multiple models.
+116,128,Boosting,An iterative boosting algorithm improving weak models.
+117,130,Data Wrangling,Transforming raw data into usable formats.
+118,131,Data Cleaning,"Fixing or removing incorrect, incomplete, or irrelevant data."
+119,132,RNN (Recurrent Neural Networks),A type of neural network for sequential data.
+120,133,Bias-Variance Tradeoff,The tradeoff between a model's bias and variance.
+121,134,RNN (Recurrent Neural Networks),A type of neural network for sequential data.
+122,135,Supervised Learning,A type of machine learning where the model learns from labeled data.
+123,136,Overfitting,"A model fits the training data too well, reducing generalization."
+124,137,Recall,The ratio of true positives to actual positives.
+125,138,PCA (Principal Component Analysis),A technique to reduce data dimensions while preserving variance.
+126,139,Clustering,Grouping similar data points into clusters.
+127,140,Clustering,Grouping similar data points into clusters.
+128,141,Time Series Analysis,Analyzing data collected over time.
+129,142,Data Visualization,Creating graphical representations of data.
+130,143,Cross-Validation,A technique to evaluate models using different subsets of data.
+131,144,LIME,A technique for interpreting machine learning models.
+132,145,Fairness in AI,Ensuring AI systems treat all groups fairly.
+133,146,Underfitting,A model is too simple and fails to capture the data's complexity.
+134,147,Random Forests,An ensemble method using multiple decision trees.
+135,148,Recall,The ratio of true positives to actual positives.
+136,149,Boosting,An iterative boosting algorithm improving weak models.
+137,150,Decision Trees,A tree-based algorithm for decision-making tasks.
+138,151,Data Cleaning,"Fixing or removing incorrect, incomplete, or irrelevant data."
+139,152,Reinforcement Learning,Learning through rewards and penalties.
+140,153,PCA (Principal Component Analysis),A technique to reduce data dimensions while preserving variance.
+141,154,Bias in AI,Unintended biases in machine learning models.
+142,155,Classification,Predicting a category or class label.
+143,156,Deep Learning,A subset of machine learning focusing on neural networks with many layers.
+144,157,Recall,The ratio of true positives to actual positives.
+145,158,Clustering,Grouping similar data points into clusters.
+146,159,Bias in AI,Unintended biases in machine learning models.
+147,160,Scikit-learn,A library for machine learning in Python.
+148,161,Reinforcement Learning,Learning through rewards and penalties.
+149,162,PCA (Principal Component Analysis),A technique to reduce data dimensions while preserving variance.
+150,163,Bagging,An ensemble technique combining multiple models.
+151,164,LSTM,A type of neural network for sequence data.
+152,165,PyTorch,A deep learning framework.
+153,166,Data Ethics,Ethical considerations in data collection and usage.
+154,167,CNN (Convolutional Neural Networks),A type of neural network for image data.
+155,168,Cross-Validation,A technique to evaluate models using different subsets of data.
+156,169,Confusion Matrix,A table showing the performance of a classification model.
+157,170,Data Governance,"Ensuring data quality, security, and compliance."
+158,171,Underfitting,A model is too simple and fails to capture the data's complexity.
+159,173,Deep Learning,A subset of machine learning focusing on neural networks with many layers.
+160,174,Cross-Validation,A technique to evaluate models using different subsets of data.
+161,175,PyTorch,A deep learning framework.
+162,176,Seaborn,A Python library for statistical data visualization.
+163,177,Neural Networks,A computational model inspired by the human brain.
+164,178,Supervised Learning,A type of machine learning where the model learns from labeled data.
+165,179,Time Series Analysis,Analyzing data collected over time.
+166,180,Bagging,An ensemble technique combining multiple models.
+167,181,Model Evaluation,Assessing the performance of machine learning models.
+168,182,Bias-Variance Tradeoff,The tradeoff between a model's bias and variance.
+169,183,Classification,Predicting a category or class label.
